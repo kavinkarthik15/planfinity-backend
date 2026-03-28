@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+firebase_key.json
+*-firebase-adminsdk-*.json
+
+# Tooling / OS
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
